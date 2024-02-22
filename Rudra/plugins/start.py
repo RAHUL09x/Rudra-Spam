@@ -21,7 +21,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[RUDRA-JAAT](tg://user?id={6783196044})"
+        creator = f"[Harry](tg://user?id={6892133154})"
         sudo_user = ""
         if e.sender_id in MY_USERS:
             sudo_user = "True"
@@ -29,7 +29,7 @@ async def start(e):
             sudo_user = "False"
         ON_START = f"""
 Hey {mention},
-    This is Rudra Spam Bot.
+    This is Harry Spam Bot.
     A Powerfull Spam Bot With a
     large abusive database.
     So,enjoy the Game!!😈😈
